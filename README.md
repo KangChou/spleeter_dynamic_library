@@ -8,7 +8,9 @@ The method and environment configuration source [@jinay1991](https://github.com/
 Thanks for the help given by [@jinay1991](https://github.com/jinay1991), his answer made me solve the current PC side (the problem of the UBUNTU platform).
 
 # 使用方法
-0、使用环境在docker+ubuntu：docker pull registry.gitlab.com/jinay1991/spleeter
+## 0、环境配置与编译
+
+使用环境在docker+ubuntu：docker pull registry.gitlab.com/jinay1991/spleeter
 
 ```
 root@docker-desktop:/data/spleeter/spleeter_dynamic_library/bin# cat /etc/issue
