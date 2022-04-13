@@ -34,10 +34,17 @@ cd 到/data/spleeter/spleeter_dynamic_library/bin 执行./spleeter即可完成�
 ![image](https://user-images.githubusercontent.com/36963108/163114437-7f4a8136-4e8b-402e-aa44-7c2d13b30c69.png)
 
 
-## 附件：关于libavcodec.so.57的完美解决方法：无动态库libavcodec.so.57等等方法（如果本机能搜索到的话）
+## 附件
+关于libavcodec.so.57的完美解决方法：无动态库libavcodec.so.57等等方法（如果本机能搜索到的话）
 
 解决连接：[https://github.com/KangChou/deepcv_project_demo/tree/main/dynamic_library](https://github.com/KangChou/deepcv_project_demo/tree/main/dynamic_library)
 
+
+libtensorflow_cc.so获取链接：https://pan.baidu.com/s/1egEIVAGKCzcfP_xtYIEiQg 
+提取码：6eca 
+
+
+![image](https://user-images.githubusercontent.com/36963108/163127525-ae085ba2-5b16-479e-835d-a4e74e99da1c.png)
 
 
 ## Reference
