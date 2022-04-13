@@ -1,6 +1,8 @@
 # spleeter_dynamic_library
 Spleeter C++动态库可执行文件实现音乐人声伴奏分离
 
+The method and environment configuration source [@jinay1991](https://github.com/jinay1991/spleeter) for compiling the [spleeter C++](https://github.com/jinay1991/spleeter) algorithm in this demo.
+
 Thanks for the help given by [@jinay1991](https://github.com/jinay1991), his answer made me solve the current PC side (the problem of the UBUNTU platform).
 
 # 使用方法
