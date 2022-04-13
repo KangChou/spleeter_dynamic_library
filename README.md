@@ -1,6 +1,6 @@
 # spleeter_dynamic_library
 Spleeter C++动态库可执行文件实现音乐人声伴奏分离
-Thanks for the help given by @jinay1991, his answer made me solve the current PC side (the problem of the UBUNTU platform).
+Thanks for the help given by [@jinay1991](https://github.com/jinay1991), his answer made me solve the current PC side (the problem of the UBUNTU platform).
 
 
 
