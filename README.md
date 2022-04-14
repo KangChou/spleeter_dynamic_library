@@ -7,6 +7,8 @@ The method and environment configuration source [@jinay1991](https://github.com/
 
 Thanks for the help given by [@jinay1991](https://github.com/jinay1991), his answer made me solve the current PC side (the problem of the UBUNTU platform).
 
+Spleeter C++算法函数接口逻辑流程文档:[spleeter/doc](https://jinay1991.gitlab.io/spleeter/doc/html/annotated.html)
+
 # 使用方法
 ## 0、环境配置与编译
 
