@@ -95,6 +95,8 @@ Aborted (core dumped)
 ```
 成功编译上述过程文档：[build_run_test.md](https://github.com/KangChou/spleeter_dynamic_library/blob/main/build_run_test.md)
 
+![image](https://user-images.githubusercontent.com/36963108/163791757-b97450d2-4cc0-4257-bbf8-ff4f558f4d9c.png)
+
 
 
 
