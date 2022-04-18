@@ -84,7 +84,7 @@ git clone https://github.com/jinay1991/spleeter.git
 
 
 ```
-## 当前在ubuntu18.04编译成功
+## 当前在ubuntu18.04编译报错成功解决
 The current issue is resolved.
 ```
 ERROR: Could not open 'external/models/5stems/5stems.tflite'.
@@ -93,7 +93,7 @@ F0418 09:15:07.654577 85700 tflite_inference_engine.cpp:70] Check failed: model_
 *** Check failure stack trace: ***
 Aborted (core dumped)
 ```
-编译过程连接：[build_run_test.md](https://github.com/KangChou/spleeter_dynamic_library/blob/main/build_run_test.md)
+成功编译上述过程文档：[build_run_test.md](https://github.com/KangChou/spleeter_dynamic_library/blob/main/build_run_test.md)
 
 
 
