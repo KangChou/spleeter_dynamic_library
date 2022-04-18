@@ -12,13 +12,79 @@ Spleeter C++算法函数接口逻辑流程文档:[spleeter/doc](https://jinay199
 # 使用方法
 ## 0、环境配置与编译
 
-使用环境在docker+ubuntu：docker pull registry.gitlab.com/jinay1991/spleeter
+使用作者环境在docker+ubuntu：docker pull registry.gitlab.com/jinay1991/spleeter
 
 ```
 root@docker-desktop:/data/spleeter/spleeter_dynamic_library/bin# cat /etc/issue
 Ubuntu 20.04.4 LTS \n \l
 
 ```
+
+如果不使用作者环境，需要重新配置，我是在ubuntu18.04系统下配置的：
+* Ubuntu 18.04  
+
+To setup developer environment, the project requires following packages.
+
+```bash
+apt-get update --fix-missing
+sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list && \
+sed -i 's/security.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list       
+apt-get update --fix-missing
+
+# Installation of general dependencies
+apt-get install -y build-essential clang-format clang-tidy clang git git-lfs wget curl gnupg openjdk-11-jdk openjdk-11-jre lcov
+
+# Installation of FFMPEG
+
+apt-get install -y libavcodec-dev libavformat-dev libavfilter-dev libavdevice-dev libswresample-dev libswscale-dev ffmpeg
+```
+
+### Build System
+
+This project uses `bazel` build system. To install, run following command or find documentation for installation on office site [here](https://docs.bazel.build/versions/master/install-ubuntu.html#installing-bazel).
+
+For Linux/macOS systems,
+
+```bash
+# Installation
+curl -fsSL https://bazel.build/bazel-release.pub.gpg | gpg --dearmor > bazel.gpg
+mv bazel.gpg /etc/apt/trusted.gpg.d/
+echo "deb [arch=amd64] https://storage.googleapis.com/bazel-apt stable jdk1.8" | tee /etc/apt/sources.list.d/bazel.list
+
+#
+apt-get update && apt-get install -y bazel
+
+# 报错记录error
+#The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 3D5919B448457EE0 E: The repository 'https://storage.googleapis.com/bazel-apt stable InRelease' is not signed.
+
+# 解决方法solv: apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3D5919B448457EE0
+reinstall: apt-get update && apt-get install -y bazel
+
+# 查看安装版本
+bazel version
+Build label: 5.1.1
+Build target: bazel-out/k8-opt/bin/src/main/java/com/google/devtools/build/lib/bazel/BazelServer_deploy.jar
+Build time: Fri Apr 8 15:49:48 2022 (1649432988)
+Build timestamp: 1649432988
+Build timestamp as int: 1649432988
+
+
+# Command Completion
+echo "source /etc/bash_completion.d/bazel" >> ~/.bashrc
+
+# Autoformat
+wget https://github.com/bazelbuild/buildtools/releases/download/3.5.0/buildifier
+chmod +x buildifier
+mv buildifier /usr/bin
+
+# 构建
+git clone https://github.com/jinay1991/spleeter.git
+
+
+
+```
+
+
 
 ## 1、获取code
 先git clone 本目录或到https://github.com/jinay1991
