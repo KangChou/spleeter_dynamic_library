@@ -86,7 +86,7 @@ git clone https://github.com/jinay1991/spleeter.git
 ```
 ## 当前在ubuntu18.04编译报错成功解决
 
-**备注：如果你没有使用作者提供的开发环境，而是自己编译成功的情况下，那么下面的操作就无需关注。**
+
 
 The current issue is resolved.
 ```
