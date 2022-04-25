@@ -114,7 +114,6 @@ Aborted (core dumped)
 
 ## 3、推理过程
 
-**备注：如果你没有使用作者提供的开发环境，而是自己编译成功的情况下，那么下面的操作就无需关注。**
 
 cd 到/data/spleeter/spleeter_dynamic_library/bin 执行./spleeter即可完成推理，最终会在当前目录下生成路径spleeter_dynamic_library\bin\external\audio_example\file下事先准备好的audio_example.wav音频文件。由于是已经生成的可执行文件，想要处理其他音频文件，需要将新拿来的音频文件文件名修改为audio_example.wav替换原有的音频文件即可。
 
@@ -122,6 +121,10 @@ cd 到/data/spleeter/spleeter_dynamic_library/bin 执行./spleeter即可完成�
 
 
 ## 附件
+
+
+**备注：如果你没有使用作者提供的开发环境，而是自己编译成功的情况下，那么下面的操作就无需关注。**
+
 关于libavcodec.so.57的完美解决方法：无动态库libavcodec.so.57等等方法（如果本机能搜索到的话）
 
 解决连接：[https://github.com/KangChou/deepcv_project_demo/tree/main/dynamic_library](https://github.com/KangChou/deepcv_project_demo/tree/main/dynamic_library)
