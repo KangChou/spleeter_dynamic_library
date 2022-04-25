@@ -86,7 +86,7 @@ git clone https://github.com/jinay1991/spleeter.git
 ```
 ## 当前在ubuntu18.04编译报错成功解决
 
-**备注：如果你是你没有使用作者提供的开发环境，而是自己编译成功的情况下，那么下面的操作就无需关注。**
+**备注：如果你没有使用作者提供的开发环境，而是自己编译成功的情况下，那么下面的操作就无需关注。**
 
 The current issue is resolved.
 ```
@@ -114,7 +114,7 @@ Aborted (core dumped)
 
 ## 3、推理过程
 
-**备注：如果你是你没有使用作者提供的开发环境，而是自己编译成功的情况下，那么下面的操作就无需关注。**
+**备注：如果你没有使用作者提供的开发环境，而是自己编译成功的情况下，那么下面的操作就无需关注。**
 
 cd 到/data/spleeter/spleeter_dynamic_library/bin 执行./spleeter即可完成推理，最终会在当前目录下生成路径spleeter_dynamic_library\bin\external\audio_example\file下事先准备好的audio_example.wav音频文件。由于是已经生成的可执行文件，想要处理其他音频文件，需要将新拿来的音频文件文件名修改为audio_example.wav替换原有的音频文件即可。
 
