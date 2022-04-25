@@ -1,5 +1,5 @@
 # spleeter_dynamic_library
-基于[spleeter C++](https://github.com/jinay1991/spleeter)现有的动态库可执行文件实现音乐人声伴奏分离过程
+基于[spleeter C++](https://github.com/jinay1991/spleeter)现有的动态库可执行文件实现音乐人声伴奏分离过程。当然，在保证相关文件路径都存放正确位置的前提下，也可以自行编译完成后进行调用，目前我已实现所需的编译环节，感谢以上源码的开源作者的贡献。
 
 
 
